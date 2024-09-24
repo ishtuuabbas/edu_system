@@ -1,0 +1,38 @@
+.footer {
+    /* background: linear-gradient(to right,  #75b3f5 100%, #6372ff 0%); */
+	background-color: rgb(247, 246, 246);
+}
+/* Footer Section*/
+#footer {
+	background: #ffffff;
+	padding: 20px 0;
+  }
+  #footer p {
+	color: #888;
+	font-size: 22px;
+  }
+  #footer a {
+	color: #608dfd;
+	
+  }
+  #footer a:hover {
+	border-bottom: 2px solid #5a7dd6;
+  }
+  
+ 
+
+.footer-logo {
+    width: 60%;
+    padding:0 14rem;
+	margin-bottom: 20px;
+}
+
+.footer .footer-bottom .copyright {
+
+	padding: 20px 0;
+}
+
+ul.IS-Icon {
+    display: flex;
+    gap: 5px;
+}

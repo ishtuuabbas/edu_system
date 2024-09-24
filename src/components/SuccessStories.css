@@ -1,0 +1,126 @@
+success-stories-container {
+  background-color: #f9f9f9;
+  padding: 40px 0 10px 0;
+  position: relative;
+}
+ 
+  .success-stories-container h2 {
+        position: relative;
+        margin-top: 30px;
+        margin-bottom: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        
+  }
+  .success-stories-container h2::after {
+    position: absolute;
+    content: "";
+    background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    height: 4px;
+    width: 60px;
+    bottom: 0;
+    margin-left: -30px;
+    left: 50%;
+}
+  .story-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden; /* Ensure only the group of three is visible */
+  }
+  
+  .story-group {
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.5s ease;
+  }
+  
+  .story-card {
+    width: 300px;
+    /* background:linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+
+    color: #131212;
+    margin: 0 10px 30px 10px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 0 0 auto;
+    
+    background-color:  #eee7e7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+    }
+  
+  .story-card .avatar {
+    width: 145px;
+    height: 145px;
+    /* background-color: #b8cbdd; */
+    background-image: url("../assets/img.png");
+    background-repeat: no-repeat;
+
+    border-radius: 50%;
+    margin: 0 auto 20px;
+  }
+  
+  .story-card h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  
+  .story-card h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #0c0c0c; /* Light Blue */
+  }
+  
+  .story-card p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #1f2020; /* Lighter Blue */
+  }
+  
+  /* Chevron styles */
+  .chevron {
+    font-size: 40px;
+    cursor: pointer;
+    color: #0055a5;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    background-color: transparent;
+  }
+  
+  .chevron.left {
+    left: 10px;
+  }
+  
+  .chevron.right {
+    right: 10px;
+  }
+  
+  /* Bubbles */
+  .bubbles {
+    margin-top: 0px;
+    text-align: center;
+  }
+  
+  .bubble {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    background-color: #0055a5;
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+  }
+  
+  .bubble.active {
+    opacity: 1;
+  }
+  
+
+
+  

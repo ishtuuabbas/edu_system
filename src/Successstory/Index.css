@@ -1,0 +1,73 @@
+.success-stories {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .success-stories h2 {
+
+    
+        position: relative;
+        margin-top: 30px;
+        margin-bottom: 12px;
+        padding-bottom: 12px;
+ text-align: center;
+
+  }
+  .success-stories h2::after {
+    position: absolute;
+    content: "";
+    background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    height: 4px;
+    width: 60px;
+    bottom: 0;
+    margin-left: -30px;
+    left: 50%;
+}
+  
+  .stories-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .story-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .story-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .story-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .story-content {
+    padding: 15px;
+  }
+  
+  .story-content h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color:#5ca9fb; /* Color to match your theme */
+  }
+  
+  .education {
+    color:#5ca9fb; /* Lighter shade of the main color */
+    font-style: italic;
+    margin: 10px 0;
+  }
+  
+  .story-text {
+    color: #333;
+    line-height: 1.6;
+  }
+  

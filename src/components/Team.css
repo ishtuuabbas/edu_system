@@ -1,0 +1,58 @@
+#team .story-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  #team .std_2 {
+    flex: 1;
+    padding: 30px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    margin: 0 120px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 23rem;
+  }
+  
+  #team img {
+    border-radius: 50%;
+  }
+  
+  #team .chevron {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #3e52c2;
+  }
+  
+  #team .chevron.left {
+    position: absolute;
+    left: -50px;
+  }
+  
+  #team .chevron.right {
+    position: absolute;
+    right: -50px;
+  }
+  
+  #team .bubbles {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #team .bubble {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  #team .bubble.active {
+    background: linear-gradient(to right,  #6372ff 0%,#75b3f5 100%);
+  }
+  

@@ -1,0 +1,72 @@
+/* About.css */
+/* About Section */
+#about {
+    padding: 40px 0px 10px 0;
+  }
+  #about h3 {
+    font-size: 35px;
+    margin: 0 0 20px;
+  }
+  #about h2 {
+    position: relative;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  #about h2::after {
+    position: absolute;
+    content: "";
+    background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    height: 4px;
+    width: 60px;
+    bottom: 0;
+    left: 55rem;
+  }
+  #about .about-text li {
+    margin-bottom: 6px;
+    margin-left: 6px;
+    list-style: none;
+    padding: 0;
+  }
+  #about .about-text li:before {
+    content: "\f00c";
+    font-family: "FontAwesome";
+    color: #5ca9fb;
+    font-size: 11px;
+    font-weight: 300;
+    padding-right: 8px;
+  }
+  #about img {
+    width: 320px;
+    margin-top: 10px;
+    background: #fff;
+    border-right: 0;
+    margin-left: 20rem;
+    box-shadow: 0px 10px 17px 6px #dbdbdb;
+    border-top-right-radius: 10rem;
+  }
+  #about p {
+    line-height: 24px;
+    margin: 30px 0;
+  }
+
+#about .container {
+    position: relative;
+    padding: 20px;
+  }
+  
+  .image-container {
+    overflow: hidden;
+    border-radius: 8px; /* Optional: rounded corners for the image */
+  }
+  
+  .img-responsive {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .image-container:hover .img-responsive {
+    transform: scale(1.1); /* Scale up the image by 10% */
+  }
+  

@@ -1,0 +1,79 @@
+.vmv-container {
+    text-align: center;
+    padding: 20px 15px;
+    background-color: #fff;
+  }
+  
+  .vmv-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-bottom: 40px; */
+  }
+  
+  .vmv-item {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .vmv-title {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  
+  .green {
+    color:  #6372ff ;
+  }
+  
+  .orange {
+    color: 0%, #6372ff ;
+  }
+  
+  .vmv-subtitle {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .vmv-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .vmv-list li {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .vmv-stats {
+    display: flex;
+    justify-content: center;
+    gap: 22rem;
+    padding: 20px 0;
+  }
+  
+  .vmv-stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .vmv-icon {
+    font-size: 40px; /* Adjust size for icons */
+    margin-bottom: 10px;
+  }
+  
+  .vmv-stat-item h4 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .vmv-stat-item p {
+    font-size: 22px;
+    color: #333;
+  }
+  
